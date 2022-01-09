@@ -51,3 +51,7 @@ info.personagem
 # Exercício 9: Insira no objeto uma nova propriedade com o nome de chave "recorrente" e o valor "Sim". Em seguida, imprima o objeto no console.
 info["recorrente"] = "sim"
 info
+
+# Exercício 10: Remova a propriedade cuja chave é "origem" e imprima o objeto no console.
+del info["origem"]
+info
