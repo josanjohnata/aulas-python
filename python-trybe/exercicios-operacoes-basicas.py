@@ -55,3 +55,6 @@ info
 # Exercício 10: Remova a propriedade cuja chave é "origem" e imprima o objeto no console.
 del info["origem"]
 info
+
+# Exercício 11: Após uma consulta do banco de dados, temos linhas que contém nome, sobrenome e idade como: "Thiago", "Nobre", 29 . Que estrutura vista anteriormente seria recomendada dado que após esta consulta somente exibimos estes valores.
+# Resposta: A estrutura recomendada é a tuple . Caso houvesse necessidade de editar os valores ou adicionar mais valores, usaríamos uma list.
