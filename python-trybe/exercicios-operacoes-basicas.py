@@ -47,3 +47,7 @@ info = {
 }
 info.personagem
 # Resposta: Essa forma de acesso ao objeto em Python não é permitida, resultando em erro de sintaxe.
+
+# Exercício 9: Insira no objeto uma nova propriedade com o nome de chave "recorrente" e o valor "Sim". Em seguida, imprima o objeto no console.
+info["recorrente"] = "sim"
+info
