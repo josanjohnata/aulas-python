@@ -26,3 +26,7 @@ book_price = (1 - 0.4) * 24.20
 logistic = 3 + (books - 1) * 0.75
 cost = books * book_price + logistic
 cost
+
+# Exercício 5: Adicione o elemento "Ciência da Computação" à lista.
+trybe_course = ["Introdução", "Front-end", "Back-end"]
+trybe_course.append("Ciência da Computação")
