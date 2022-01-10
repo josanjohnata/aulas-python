@@ -7,9 +7,18 @@ def biggest_number(a, b):
     print(biggest_number(4, 7))
 
 # Exercício 2: Calcule a média aritmética dos valores contidos em uma lista.
+
+
 def average(list):
-    media = 0
+    total = 0
     for num in list:
-        media += num
-    return media / len(list)
+        total += num
+    return total / len(list)
+
+# Exercício 3: Faça um programa que, dado um valor n qualquer, tal que n > 1 , imprima na tela um quadrado feito de asteriscos de lado de tamanho n.
+
+
+def draw_square(n):
+    for row in range(n):
+        print(n * '*')
 
