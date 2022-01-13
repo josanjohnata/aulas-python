@@ -25,3 +25,26 @@ for numbers in numbersArr:
         sum += int(numbers)
 
 print(f"A soma dos valores válidos é: {sum}")
+
+# Exercício 3: Dado um arquivo contendo estudantes e suas respectivas notas, escreva um programa que lê todas essas informações e filtre mantendo somente as pessoas que estão reprovadas, e escreva seus nomes em outro arquivo. A nota miníma para aprovação é 6.
+
+# Arquivo:
+# Marcos 10
+# Felipe 4
+# José 6
+# Ana 10
+# Maria 9
+# Miguel 5
+
+recuStudents = []
+with open("file.txt") as gradesFile:
+    for line in gradesFile:
+        student_grade = line
+        student_grade = student_grade.split(" ")
+        if int(student_grade[1]) < 6:
+            recuStudents.append(student_grade[0] + "\n")
+
+
+with open("recuStudents.txt", mode="w") as recuStudentsFile:
+    print(recuStudents)
+    recuStudentsFile.writelines(recuStudents)
