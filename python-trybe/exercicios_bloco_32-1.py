@@ -48,3 +48,4 @@ with open("file.txt") as gradesFile:
 with open("recuStudents.txt", mode="w") as recuStudentsFile:
     print(recuStudents)
     recuStudentsFile.writelines(recuStudents)
+print(f"A soma dos valores válidos é: {sum}")
