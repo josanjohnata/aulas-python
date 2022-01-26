@@ -47,3 +47,15 @@ class User:
 
 meu_user = User("Valentino Trocatapa", "valentino@tinytoons.com", "Grana")
 meu_user.reset_password()
+
+
+class User:
+    # Não preciso saber como a classe funciona, lalalalala
+
+    def reset_password(self):
+      # A classe tem essa função? Ótimo! Pra mim basta!
+
+# Já sei o suficiente pra agir!
+
+meu_user = User("Valentino Trocatapa", "valentino@tinytoons.com", "Grana")
+meu_user.reset_password()
