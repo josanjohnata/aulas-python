@@ -167,3 +167,9 @@ if __name__ == "__main__":
 # sentido pelo client .
 
 nc -u 127.0.0.1 8084
+
+# Exercício 9: Faça uma chamada ao server, utilizando o cURL.
+# Lembre que além do HTTP o comando utiliza o protocolo TCP
+# e não o UDP. Repare o que acontece.
+
+curl localhost:8084
