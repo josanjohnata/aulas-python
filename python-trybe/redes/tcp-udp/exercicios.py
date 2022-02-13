@@ -173,3 +173,12 @@ nc -u 127.0.0.1 8084
 # e não o UDP. Repare o que acontece.
 
 curl localhost:8084
+
+########################################################
+
+# BÔNUS
+
+# Exercício 10: Identifique o IP interno e externo da sua máquina.
+# Para IP externo acesse algum site como o http://meuip.com.br/ ou execute:
+
+curl ifconfig.me
