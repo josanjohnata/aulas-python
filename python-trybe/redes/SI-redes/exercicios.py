@@ -28,3 +28,8 @@ iptables -A OUTPUT -p tcp --sport 443 -j REJECT
 # que use HTTP .
 
 iptables -A OUTPUT -p tcp --sport 80 -j REJECT
+
+# Exercício 5 : Para finalizar, vamos limpar todas as regras.
+# Para isso, utilize o comando --flush do iptables (Linux).
+
+iptables --flush
