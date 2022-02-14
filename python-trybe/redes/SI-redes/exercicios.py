@@ -33,3 +33,18 @@ iptables -A OUTPUT -p tcp --sport 80 -j REJECT
 # Para isso, utilize o comando --flush do iptables (Linux).
 
 iptables --flush
+
+# Exercício 6: Agora, vamos utilizar um tipo de proxy bem legal
+# que pode ser bastante útil no nosso dia como pessoas
+# desenvolvedoras o NGROK , com ele conseguimos criar um túnel
+# para o nosso localhost .
+
+# 1 - Crie um servidor HTTP em sua máquina executando na porta 80,
+# pode ser um frontend ou um backend criado em aulas anteriores.
+# Python é um brinquedo que vem com todos os acessórios, lembra?
+# Claro que ele vem com um servidor http pronto pra usar! Vamos
+# criar um diretório novo e rodar o servidor lá dentro!
+
+ mkdir diretorio && cd diretorio
+ python3 -m http.server 80
+ 
