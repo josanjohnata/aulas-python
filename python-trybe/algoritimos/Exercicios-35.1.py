@@ -33,6 +33,16 @@ def contains_duplicate(numbers):
 A complexidade de espaço também é O(1), pois não consideramos a entrada em seu
 cálculo."""
 
+"""
+entrada = [ 0 0 0 0 1
+ 0 0 0 1
+ 1 1 1 1
+ 0 0 1 0 ]
+
+resultado para (0, 4) = True
+resultado para (1, 1) = False
+"""
+
 
 def battleship(grid, line, column):
     if(grid[line][column] == 1):
