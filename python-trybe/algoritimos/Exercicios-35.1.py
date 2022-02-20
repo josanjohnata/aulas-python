@@ -28,11 +28,6 @@ def contains_duplicate(numbers):
 # par de coordenadas x para linhas e y para colunas, o algoritmo verifica se
 # há um navio na coordenada alvo. Por exemplo:
 
-
-""" Mesmo para um array bidimensional, o acesso a um elemento é O(1).
-A complexidade de espaço também é O(1), pois não consideramos a entrada em seu
-cálculo."""
-
 """
 entrada = [ 0 0 0 0 1
  0 0 0 1
@@ -43,9 +38,27 @@ resultado para (0, 4) = True
 resultado para (1, 1) = False
 """
 
+# Qual seria a ordem de complexidade da solução para este problema?
+# E a complexidade de espaço?
+
+""" Mesmo para um array bidimensional, o acesso a um elemento é O(1).
+A complexidade de espaço também é O(1), pois não consideramos a entrada em seu
+cálculo."""
+
 
 def battleship(grid, line, column):
     if(grid[line][column] == 1):
         return True
 
     return False
+
+# Exercício 3: O código abaixo está em JavaScript. Calcule sua ordem de
+# complexidade para um array de tamanho n.
+
+
+"""
+const numbers = [0,1,2,3,4,5,6,7,8,9]
+numbers.map(n => n*n)
+"""
+
+# A função map itera sobre todo o array. O código, portanto, é O(n).
