@@ -86,6 +86,15 @@ def conta_pares(n):
     return numero_de_pares
 
 # Exercício 2: Transforme o algoritmo criado acima em recursivo.
+
+def conta_pares(n):
+    if n == 1:
+        return 0
+    elif n % 2 == 0:
+        return 1 + conta_pares(n-1)
+    else:
+        return conta_pares(n-1)
+
 # Exercício 3: Crie um algoritmo recursivo que encontre, em uma lista, o maior
 # número inteiro.
 # Exercício 4: Escreva um algoritmo recursivo para encontrar o máximo divisor
