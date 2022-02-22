@@ -120,6 +120,13 @@ print(maiorinteiro([1, 21, 300, 4, 57]))
 
 # Exercício 4: Escreva um algoritmo recursivo para encontrar o máximo divisor
 # comum (mdc) de dois inteiros.
+
+
+def mdc(a, b):
+    if b == 0:
+        return a
+    return mdc(b, a % b)
+
 # Exercício 5: Escreva um algoritmo recursivo que identifica se um número é
 # primo.
 
